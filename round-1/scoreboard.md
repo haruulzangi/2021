@@ -1,4 +1,8 @@
-1	Is Perfect Shit ?					10713			
+Rank          | Name		| Score
+------------- | -------------   | --------------
+ 1             |Is Perfect Shit ?| 10713
+
+1|Is Perfect Shit ?| 10713
 2	Team_M							9649			
 3	AnonSec							8774			
 4	idk							7730			
