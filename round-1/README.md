@@ -2,7 +2,7 @@
 
 
 * https://dashboard.haruulzangi.mn/
-* [Scoreboard](scoreboard) 
+* [Scoreboard](scoreboard.md) 
 
  
 
