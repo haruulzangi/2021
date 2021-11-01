@@ -45,11 +45,12 @@ flag
 >HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}
 
 ## Screenshot-2
+
 admin.php рүү хандвал Зөвхөн дотоод IP хандана уу гэсэн байх бөгөөд XSS ээр ирсэн хүсэлтийг анхааралтай харвал. 
 
 **`referer:	http://screen/god-wisper.php`** гэж байгаа
 
-`http://screen/` гэдэг нь docker ийн дотоод url хаяг гэж харж болохоор байна. иймд `http://screen/admin.php` -н screenshot -г харвал 
+`http://screen/` гэдэг хаяг байх бөгөөд үүний screenshot зургыг харвал тухайн сайт нь өөрөө байна. энэ нь docker ийн дотоод url хаяг гэж харж болохоор байна. иймд `http://screen/admin.php` -н screenshot -г харвал 
 
 flag гарч ирнэ. 
 
