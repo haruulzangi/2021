@@ -1,6 +1,13 @@
 ## Асаах
 
-`docker-compose up -d`
+Docker desktop version биш docker engine  суулгаарай. 
+
+```console
+[root@localhost HZ2021]# docker --version
+Docker version 20.10.10, build b485636
+[root@localhost HZ2021]# docker-compose up -d
+```
+
 
 ## Screenshot-1
 
