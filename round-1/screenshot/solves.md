@@ -1,6 +1,10 @@
+## Асаах
+
+`docker-compose up -d`
+
 ## Screenshot-1
 
-http://ip/1337:/feed.php
+`http://ipaddress/1337:/feed.php`
 XSS өртөмтгий байх амархан шалгаж болно. 
 
 ```
@@ -33,9 +37,12 @@ content-type:
 
 
 ## Screenshot-2
+admin.php рүү хандвал Зөвхөн дотоод IP хандана уу гэсэн байх бөгөөд. XSS ээр авсан хүсэлтийг дахиж харвал. 
 
-зөвхөн дотоод IP хандана уу гэсэн байх бөгөөд. XSS ээр авсан хүсэлтийг дахиж харвал. 
-referer:	http://screen/god-wisper.php гэж байгаа
-http://screen/ гэдэг нь docker ийн дотоод хаяг гэж харж болхоор байна. иймд http://screen/admin.php -н screenshot -г харвал. 
-flag гарж ирнэ. 
+**`referer:	http://screen/god-wisper.php`** гэж байгаа
 
+`http://screen/` гэдэг нь docker ийн дотоод хаяг гэж харж болохоор байна. иймд `http://screen/admin.php` -н screenshot -г харвал 
+
+flag гарч ирнэ. 
+
+![9d7c1f6f904b57a79b892e.jpg](9d7c1f6f904b57a79b892e.jpg)
