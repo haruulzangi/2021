@@ -1,0 +1,9 @@
+    {
+        "require": {
+            "jonnyw/php-phantomjs": "4.*"
+        },
+        "config": {
+            "bin-dir": "/bin"
+        }
+    }
+
