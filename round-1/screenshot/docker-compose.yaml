@@ -1,0 +1,14 @@
+version: '3'
+services:
+    screen:
+        build: ./web/screen/SCREEN
+        ports:
+            - "1337:80"
+        restart: always
+
+    xss-bot:
+        build: ./web/screen/XSS-bot
+        environment:
+            - BASE_HOST=screen
+        links:
+                        - screen
